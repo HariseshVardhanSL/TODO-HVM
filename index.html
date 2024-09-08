@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO-H</title>
+    <link rel="stylesheet" href="./todohv.css"/>
+    <link rel="icon" href="./h symol.jpg"/>
+    <style>
+        .one-one,.mot1,#listcontainer{
+            font-family: "Kanit", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <div id="box1">
+            <h1 id="one-one">TODO<img id="logo" src="./h symol.jpg"></h1>
+            <input type="text" id="inputbox" placeholder="Write your tasks"></td>
+            <td><button id="but1" onclick="task()">+Add</button></td>
+            <input type="date" id="inputd" placeholder="date" >
+            <input type="time" id="inputt" placeholder="Time" >
+        </div>
+        <div id="mot">
+            <p id="mot1">"Failure is simply the opportunity to begin again,this time more intelligently"</p>
+            <P id="mot1-1">-Henry Ford</P>
+
+        </div>
+        <div id="box2">
+            <ul id="listcontainer" onclick="complete()">
+                <li id="task">YOUR TASKS </li>
+            </ul>
+        </div>
+    </center>
+    <script src="./todohv.js"></script>
+</body>
+</html>
